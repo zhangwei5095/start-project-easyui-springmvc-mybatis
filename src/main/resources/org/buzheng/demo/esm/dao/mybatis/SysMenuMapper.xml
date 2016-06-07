@@ -2,7 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="cn.iszt.ms.dao.SysMenuDao">
+<mapper namespace="org.buzheng.demo.esm.dao.SysMenuDao">
 		
 	<insert id="save" parameterType="SysMenu">
 		INSERT INTO sys_menu (menu_name, menu_url, parent_menu_id) 
